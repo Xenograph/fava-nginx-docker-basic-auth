@@ -1,6 +1,6 @@
 # Setup
 
-1. `htpasswd -c ./nginx-config/htpasswd USERNAME
+1. `htpasswd -c ./nginx-config/htpasswd USERNAME`
 
 2. `sudo docker compose run --rm certbot certonly --webroot --webroot-path /var/www/certbot/ -d YOUR_DOMAIN_NAME`
 
